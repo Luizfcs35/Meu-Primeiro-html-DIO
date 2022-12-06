@@ -4,7 +4,7 @@ Projeto E-mail-Marketing.
 
 Pratica de HTML5 / CSS3 / Boostramp.
 
-add o style.css ao main;
-add algums detalhes no ReadMe;
-add atualizações em main;
-criar branches e fazer merge;
+add o style.css ao main.
+add algums detalhes no ReadMe.
+add atualizações em main.
+criar branches e fazer merge.
