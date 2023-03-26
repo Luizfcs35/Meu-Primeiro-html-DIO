@@ -1,12 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page html</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Comentando sobre as tags-->
-</body>
+    <header>
+      <h1>Menu: h1</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Tags</a></li>
+          <li><a href="#Text">Text</a></li>
+          <li><a href="#Listas">Listas</a></li>
+          <li><a href="#Form">Formulario</a></li>
+          <li><a href="#Footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h2 id="#Essenciais">Tags Essenciais: h2</h2>
+      <p>
+        <strong>Tag header</strong>: Essa tag define um cabeçalho. Portanto,
+        todo conteúdo que estiver dentro dela faz parte de um cabeçalho, podendo
+        ser utilizado dentro de outras sessões. Não confundir com a tag
+        <em>head</em>.
+      </p>
+      <p>
+        <strong>Tag nav</strong>: Essa tag define um conteúdo de navegação.
+        Muito utilizado em conjunto com listas e na criação de menus.
+      </p>
+
+      <p>
+        <strong>Tag main:</strong> Essa tag representa o conteúdo principal do
+        seu corpo, ou seja, o conteúdo que está relacionado diretamente com o
+        tópico central da página ou com a funcionalidade central da aplicação.
+      </p>
+
+      <p>
+        <strong>Tag section:</strong> Essa tag representa o conteúdo principal
+        do seu corpo, ou seja, o conteúdo que está relacionado diretamente com o
+        tópico central da página ou com a funcionalidade central da aplicação.
+      </p>
+      <p>
+        <strong>Tag article:</strong> Essa tag define um artigo da sua página.
+        Nesse sentido, são utilizadas para separar o conteúdo da sua página.
+        Muito utilizado principalmente por blogs ou páginas de conteúdo.
+      </p>
+      <p><strong>Tag a</strong>: Tag que cria um link.
+        Responsável por fazer a ligação entre um
+        documento e outro, para isso, existe um
+        atributo chamado “href”, onde será
+        informado a url ou nome do arquivo.</p>
+        <p><strong>Tag img</strong>: Tag utilizada para incluir uma
+            imagem na página. É necessário o
+            atributo “src”, onde será informado o
+            local em que a imagem se encontra.
+            Aceita um atributo opcional “alt” que
+            descreve o conteúdo da imagem,
+            ajudando na acessibilidade.</p>
+      <hr />
+      <br />
+      <h3>Div: h3</h3>
+      <p>
+        <strong>Tag div:</strong> Define uma divisão da página. Funciona como um
+        container para conteúdo de fluxo. É muito utilizado para organizar
+        melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das
+        categorias citadas anteriormente.
+      </p>
+      <p>
+        HTML & CSS - Fundamentos 11 Todas as tags citadas até agora servem
+        basicamente para dividir o conteúdo das nossas páginas. Mas prestem bem
+        atenção no nome de cada uma.
+      </p>
+      <p>
+        Todas fazem a mesma coisa, mas existe um significado em cada uma delas.
+        Você pode usar <em>div</em> pra separar tudo, mas seu código vai ficar
+        extremamente confuso, ruim para estilizar e péssimo para o <u>SEO.</u>
+      </p>
+      <p>
+        Nenhuma delas terá um retorno visual, mas são de extrema importância na
+        organização do nosso código, semântica e para a estilização.
+      </p>
+      <hr />
+      <br />
+
+      <u> <h4 id="Text">Textos : h4</h4></u>
+      <p>Tag p: Principal tag de texto, parágrafos.</p>
+      <p><b>Tag b: Transforma o conteúdo em negrito.</b></p>
+      <p><i>Tag i: Transforma o conteúdo em itálico.</i></p>
+      <p>
+        Tag br: Essa tag não necessita de fechamento, ela executa a função
+        dequebra de linha;
+      </p>
+      <p>
+        tag hr: Essa tag não necessita de fechamento, ela forma uma linha
+        horizontal;
+      </p>
+      <p>
+        <span>Tag span:</span> Costuma ser utilizada apenas para pequenas
+        informações, como legendas de um formulário, legendas de uma imagem,
+        etc. Também pode ser utilizada para formar um container.
+      </p>
+      <hr />
+      <br />
+
+      <h5 id="Listas">Lista Ordenada : h5</h5>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+
+      <h6>Lista não Ordenada : h6</h6>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </main>
+
+    <hr />
+    <br />
+    <br />
+    <form id="Form">
+      <fieldset>
+        <legend>Formulário</legend>
+        <br />
+        <label for="name">Nome</label>
+        <input id="name" type="text" placeholder="digite seu Nome" />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="digite seu E-mail" />
+        <br />
+        <br />
+        <label for="mensagem">Mensagem</label><br />
+        <textarea name="input" id="mensagem" cols="30" rows="10">
+Digite aqui...</textarea
+        >
+        <br />
+        <button type="submit">enviar</button><br /><br />
+      </fieldset>
+    </form>
+    <br />
+    <hr />
+    <footer id="Footer">
+      <br />
+      <br />
+      <br />
+      <p>
+        <strong>Tag footer:</strong> Essa tag define um rodapé para a página e
+        geralmente utilizadas no final da página;
+      </p>
+    </footer>
+  </body>
 </html>
