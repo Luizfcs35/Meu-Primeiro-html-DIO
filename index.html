@@ -8,11 +8,12 @@
   </head>
   <body>
     <!--Comentando sobre as tags-->
-    <header>
-      <h1>Menu: h1</h1>
+    <header id="Inicio">
+      <h1>Página HTML.</h1>
       <nav>
+        <h5>nav: Menu de Navegação</h5>
         <ul>
-          <li><a href="#inicio">Tags</a></li>
+          <li><a href="">Page html</a></li>
           <li><a href="#Text">Text</a></li>
           <li><a href="#Listas">Listas</a></li>
           <li><a href="#Form">Formulario</a></li>
@@ -22,15 +23,15 @@
     </header>
     <hr />
     <main>
-      <h2 id="#Essenciais">Tags Essenciais: h2</h2>
+      <h2 id="#Essenciais">Tags Essenciais e Estruturas Fundamentais</h2>
       <p>Como dito anteriormente, o cabeçalho é
         delimitado pela tag <code>< head></code> e nele
         serão inseridos o título, meta tags, links, etc. <br>
-        <code>< title > < /title></code> <br>
-        <code>< meta /> </code> <br>
-        <code>< style > < /style ></code> <br>
-        <code>< link></code> <br>
-        <code>< script> < /script></code>
+        <code>title</code> <br>
+        <code>meta</code> <br>
+        <code>style </code> <br>
+        <code>link</code> <br>
+        <code>script</code>
         </p>
       <p>
         <strong>Tag header</strong>: Essa tag define um cabeçalho. Portanto,
@@ -89,14 +90,14 @@
         <p>
           <strong>Tag img</strong>: Tag utilizada para incluir uma
             imagem na página. É necessário o
-            atributo “src”, onde será informado o
+            atributo <sub> “src”</sub>, onde será informado o
             local em que a imagem se encontra.
-            Aceita um atributo opcional “alt” que
+            Aceita um atributo opcional <sub>“alt”</sub> que
             descreve o conteúdo da imagem,
             ajudando na acessibilidade.</p>
       
       <br />
-      <h3>Div: h3</h3>
+      <h3>h3: Div</h3>
       <p>
         <strong>Tag div:</strong> Define uma divisão da página. Funciona como um
         container para conteúdo de fluxo. É muito utilizado para organizar
@@ -104,27 +105,28 @@
         categorias citadas anteriormente.
       </p>
       <p>
-        HTML & CSS - Fundamentos 11 Todas as tags citadas até agora servem
+        <abbr title="HyperText Markup Language">HTML</abbr> & <abbr title="Cascading Style Sheets">CSS </abbr>  - Todas as tags citadas até agora servem
         basicamente para dividir o conteúdo das nossas páginas. Mas prestem bem
         atenção no nome de cada uma.
       </p>
       <p>
         Todas fazem a mesma coisa, mas existe um significado em cada uma delas.
         Você pode usar <em>div</em> pra separar tudo, mas seu código vai ficar
-        extremamente confuso, ruim para estilizar e péssimo para o <u>SEO.</u>
+        extremamente confuso, ruim para estilizar e péssimo para o <abbr title="Search Engine Optimization">SEO</abbr>.
       </p>
       <p>
         Nenhuma delas terá um retorno visual, mas são de extrema importância na
         organização do nosso código, semântica e para a estilização.
       </p>
       <br />
-      <h4 id="Text">Textos : h4</h4>
+      <h4 id="Text">h4: Textos</h4>
       <p>Tag p: Principal tag de texto, parágrafos.</p>
       <p><b>Tag b: Transforma o conteúdo em negrito.</b></p>
       <p><i>Tag i: Transforma o conteúdo em itálico.</i></p>
       <p>
-        Tag br: Essa tag não necessita de fechamento, ela executa a função
-        dequebra de linha;
+        <font color="red" face="tahoma" size="4"> Tag br: Essa tag não necessita de fechamento, ela executa a função
+        de quebra de linha;</font>
+       
       </p>
 
       <p>
@@ -134,24 +136,26 @@
       <p>
         <strong>Tag span:</strong> Costuma ser utilizada apenas para pequenas
         informações, como legendas de um formulário, legendas de uma imagem,
-        etc. Também pode ser utilizada para formar um container.
+        etc. <del>Também pode ser utilizada para formar um container.</del> 
       </p>
       
       <br />
-      <h3>Listas</h3>
-      <h5 id="Listas">Ordenada : h5</h5>
+      <article>
+        <h3>Listas</h3>
+      <h5 id="Listas">h5 : Ordenada</h5>
       <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+        <u><li>Item 1</li></u>
+        <mark><li>Item 2</li></mark>
+        <small><li>Item 3</li></small>
       </ol>
 
-      <h6>não Ordenada : h6</h6>
+      <h6>h6 : não Ordenada</h6>
       <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+        <u><li>Item 1</li></u>
+        <mark><li>Item 2</li></mark>
+        <small><li>Item 3</li></small>
       </ul>
+      </article>
     </main>
 
     <br />
@@ -178,13 +182,13 @@ Digite aqui...</textarea
     <br />
     <hr />
     <footer id="Footer">
-      <br />
-      <br />
-      <br />
+      <button  type=""><a href="#Inicio"> voltar ⬆</a></button>
       <p>
         <strong>Tag footer:</strong> Essa tag define um rodapé para a página e
-        geralmente utilizadas no final da página;
+        geralmente utilizadas no final da página; <br><br>
+        <span>Luiz fernando Castro de Souza&copy;, 2023.</span>
       </p>
+      <br />
     </footer>
   </body>
 </html>
